@@ -3,7 +3,7 @@ import React from 'react'
 function Food({foods}) {
   return (
     <>
-    <h1>Food List</h1>
+    
     <ul className='w-[80%] mx-auto'>
       {foods.map((food) => (
         
